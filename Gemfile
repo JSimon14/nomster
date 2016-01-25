@@ -5,6 +5,8 @@ gem 'rails', '4.0.1'
 gem 'kaminari'
 gem 'simple_form'
 gem 'devise', '>= 3.2.4'
+gem "geocoder"
+gem "figaro", ">= 1.0.0"
 
 # Use postgresql as the database for Active Record
 gem 'pg'
