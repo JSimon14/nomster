@@ -1,5 +1,5 @@
 Nomster::Application.configure do
-  #config.action_mailer.default_url_options = {host: 'https://nomster-juliasolsticesimon.herokuapp.com/'}
+  config.action_mailer.default_url_options = {host: 'https://nomster-juliasolsticesimon.herokuapp.com/'}
   
   ActionMailer::Base.smtp_settings = {
     :port           => ENV['MAILGUN_SMTP_PORT'],
